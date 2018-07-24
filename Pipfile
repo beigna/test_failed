@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pytest-django = "*"
+django-dramatiq = "*"
+
+[dev-packages]
+"flake8" = "*"
+pytest-watch = "*"
+
+[requires]
+python_version = "3.6"
